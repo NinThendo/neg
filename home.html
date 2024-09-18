@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Mania</title>
+    <link rel="stylesheet" href="./css_assets/styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <a href="#">Movie Mania</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="lastest_reviews.html">Reviews</a></li>
+          <li><a href="top_movies.html">Top Rated</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+      <h1>Welcome to Movie Mania!</h1>
+      <p>
+        Discover the latest reviews and ratings from movie enthusiasts like you.
+      </p>
+    </header>
+
+    <!-- Recently Rated Movies Section -->
+    <section id="recent-reviews">
+      <h2>Recently Rated Movies</h2>
+      <div class="movie-box">
+        <ul id="movie-list">
+          <!-- Sample movies with images -->
+          <li>
+            <img
+              src="https://via.placeholder.com/100x150"
+              alt="The Matrix Poster"
+            />
+            <div class="movie-info">
+              <strong>The Matrix</strong>
+              <p>Rated: 9/10</p>
+            </div>
+          </li>
+          <li>
+            <img
+              src="https://via.placeholder.com/100x150"
+              alt="Inception Poster"
+            />
+            <div class="movie-info">
+              <strong>Inception</strong>
+              <p>Rated: 8.5/10</p>
+            </div>
+          </li>
+          <li>
+            <img
+              src="https://via.placeholder.com/100x150"
+              alt="Interstellar Poster"
+            />
+            <div class="movie-info">
+              <strong>Interstellar</strong>
+              <p>Rated: 9.2/10</p>
+            </div>
+          </li>
+          <li>
+            <img
+              src="https://via.placeholder.com/100x150"
+              alt="The Dark Knight Poster"
+            />
+            <div class="movie-info">
+              <strong>The Dark Knight</strong>
+              <p>Rated: 9.5/10</p>
+            </div>
+          </li>
+          <li>
+            <img
+              src="https://via.placeholder.com/100x150"
+              alt="Avatar Poster"
+            />
+            <div class="movie-info">
+              <strong>Avatar</strong>
+              <p>Rated: 7.8/10</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript for Responsive Navbar (Toggle Hamburger Menu) -->
+    <!-- Uncomment the script below if you want a responsive hamburger menu -->
+    <!--
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+            hamburger.classList.toggle('active');
+        });
+    </script>
+    -->
+  </body>
+</html>

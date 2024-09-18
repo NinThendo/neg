@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top Movies - Movie Mania</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html">Movie Mania</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="lastest_reviews.html">Reviews</a></li>
+          <li><a href="top_movies.html">Top Rated</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+      <h1>Top Rated Movies</h1>
+      <p>
+        Discover the highest-rated movies based on our reviews and ratings.
+        These are must-watch films for all movie lovers!
+      </p>
+    </header>
+
+    <!-- Top Movies Section -->
+    <section id="top-movies-section">
+      <div class="movies-container">
+        <!-- Movie Item -->
+        <div class="movie-item">
+          <img src="images/inception.jpg" alt="Inception" />
+          <div class="movie-details">
+            <h3>Inception (2010)</h3>
+            <p><strong>Rating:</strong> 9.0/10</p>
+            <p><strong>Genre:</strong> Sci-Fi, Thriller</p>
+            <p>
+              A mind-bending thriller where a skilled thief, who steals secrets
+              through dream-sharing technology, gets a chance at redemption.
+            </p>
+          </div>
+        </div>
+
+        <!-- Movie Item -->
+        <div class="movie-item">
+          <img src="images/the-dark-knight.jpg" alt="The Dark Knight" />
+          <div class="movie-details">
+            <h3>The Dark Knight (2008)</h3>
+            <p><strong>Rating:</strong> 9.2/10</p>
+            <p><strong>Genre:</strong> Action, Drama</p>
+            <p>
+              Batman faces his toughest challenge yet as he battles the chaos
+              unleashed by the criminal mastermind, The Joker.
+            </p>
+          </div>
+        </div>
+
+        <!-- Movie Item -->
+        <div class="movie-item">
+          <img src="images/the-matrix.jpg" alt="The Matrix" />
+          <div class="movie-details">
+            <h3>The Matrix (1999)</h3>
+            <p><strong>Rating:</strong> 8.7/10</p>
+            <p><strong>Genre:</strong> Sci-Fi, Action</p>
+            <p>
+              A hacker learns about the true nature of his reality and his role
+              in the war against its controllers in this iconic sci-fi film.
+            </p>
+          </div>
+        </div>
+
+        <!-- Add more movie items here -->
+      </div>
+    </section>
+
+    <!-- Optional Footer -->
+    <footer>
+      <p>&copy; 2024 Movie Mania. All rights reserved.</p>
+    </footer>
+
+    <!-- Optional JavaScript for Responsive Navbar (Same as before) -->
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+        hamburger.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
